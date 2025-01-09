@@ -2,6 +2,7 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import { useEffect, useState } from "react";
 import { Briefcase, GraduationCap, Award } from "lucide-react";
 import { Card } from "@/components/Card";
 
@@ -60,6 +61,17 @@ const getIcon = (type: TimelineItem["type"]) => {
 };
 
 export function ExperienceSection() {
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+  useEffect(() => {
+    const updateScreenSize = () => {
+      setIsSmallScreen(window.innerWidth < 640);
+    };
+
+    updateScreenSize(); // Initial check
+    window.addEventListener("resize", updateScreenSize);
+    return () => window.removeEventListener("resize", updateScreenSize);
+  }, []);
+
   return (
     <div className="bg-[#0F172A] py-16 px-4 sm:px-8 lg:px-16 overflow-x-hidden">
       <div className="max-w-5xl mx-auto">
@@ -83,7 +95,7 @@ export function ExperienceSection() {
             className="absolute left-1/2 transform -translate-x-1/2 bg-gradient-to-b from-emerald-400 to-sky-400/30"
             style={{
               width: "2px",
-              top: window.innerWidth < 640 ? "-40px" : "0", // Adjust for small view
+              top: isSmallScreen ? "-40px" : "0", // Adjust for small view
               bottom: 0,
             }}
           ></div>
