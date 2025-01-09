@@ -11,7 +11,7 @@ export const Header = () => {
 
   return (
     <div className="flex justify-center fixed top-3 w-full z-10 px-4">
-      <nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur max-w-[98%] md:max-w-[70%] lg:max-w-[50%]">
+      <nav className="flex gap-1 p-0.5 border border-white/15 rounded-full bg-white/10 backdrop-blur max-w-[103%] md:max-w-[70%] lg:max-w-[50%]">
         <a
           href="#"
           onClick={() => handleClick("Home")}
