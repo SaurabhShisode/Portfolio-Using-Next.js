@@ -23,7 +23,7 @@ const experiences: TimelineItem[] = [
     type: "work",
   },
   {
-    title: "D2C Igniter's Club",
+    title: "D2C Igniters Club",
     role: "Media & Photography Co-Lead",
     date: "2024 - Present",
     description:
@@ -31,7 +31,7 @@ const experiences: TimelineItem[] = [
     type: "work",
   },
   {
-    title: "D2C Igniter's Club",
+    title: "D2C Igniters Club",
     role: "Media & Photography Team Member",
     date: "2023 - 2024",
     description:
@@ -43,7 +43,7 @@ const experiences: TimelineItem[] = [
     role: "Bachelor's in Computer Science",
     date: "2022 - Present",
     description:
-      "Specialized in Machine Learning, Java, Web Development, and Automation with a 8.1 CGPA.",
+      "Specialized in Machine Learning, Java, Web Development, and Automation.",
     type: "education",
   },
 ];
