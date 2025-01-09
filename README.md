@@ -8,7 +8,6 @@ Welcome to the repository of my personal portfolio website, designed to showcase
 ## 🚀 Features  
 - **Responsive Design**: Optimized for all screen sizes.  
 - **Interactive Animations**: Built with Framer Motion for smooth transitions.  
-- **Project Showcase**: Highlights key projects like ChattyCat and Spotify Clone.  
 - **Modern Tech Stack**: Incorporates the latest in web development.  
 
 ---
