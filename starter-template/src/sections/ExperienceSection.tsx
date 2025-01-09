@@ -67,7 +67,7 @@ export function ExperienceSection() {
       setIsSmallScreen(window.innerWidth < 640);
     };
 
-    updateScreenSize(); // Initial check
+    updateScreenSize(); 
     window.addEventListener("resize", updateScreenSize);
     return () => window.removeEventListener("resize", updateScreenSize);
   }, []);
@@ -75,7 +75,7 @@ export function ExperienceSection() {
   return (
     <div className="bg-[#0F172A] py-16 px-4 sm:px-8 lg:px-16 overflow-x-hidden">
       <div className="max-w-5xl mx-auto">
-        {/* Section Title */}
+        
         <div className="text-center mb-16">
           <p className="uppercase font-semibold tracking-widest text-sm bg-gradient-to-r from-emerald-300 to-sky-400 text-transparent bg-clip-text">
             My Journey
@@ -95,7 +95,7 @@ export function ExperienceSection() {
             className="absolute left-1/2 transform -translate-x-1/2 bg-gradient-to-b from-emerald-400 to-sky-400/30"
             style={{
               width: "2px",
-              top: isSmallScreen ? "-30px" : "0", // Adjust for small view
+              top: isSmallScreen ? "-30px" : "0", 
               bottom: 0,
             }}
           ></div>
@@ -109,19 +109,19 @@ export function ExperienceSection() {
               key={index}
               initial={{
                 opacity: 0,
-                y: 50, // Always animate from bottom
+                y: 50, 
               }}
               whileInView={{
                 opacity: 1,
-                y: 0, // Move to its final position
+                y: 0, 
               }}
               viewport={{
-                once: false, // Trigger animation each time when scrolling down
-                amount: 0.5, // Trigger when 50% of the element is in view
+                once: false, 
+                amount: 0.5, 
               }}
               transition={{
-                duration: 0.3, // Reduced duration for faster animation
-                delay: index * 0.15, // Slightly faster delay between items
+                duration: 0.2, 
+                delay: index * 0.15,
               }}
               className={`relative flex flex-col md:flex-row items-center mb-12 ${index % 2 === 0
                 ? "md:justify-start md:text-right"
