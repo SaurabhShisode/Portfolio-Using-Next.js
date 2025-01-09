@@ -1,31 +1,26 @@
-# Single Page Dev Portfolio Resource Bundle
+# 🌟 Personal Portfolio Website  
+**URL**: [saurabhshisode.vercel.app](https://saurabhshisode.vercel.app)  
 
-Welcome to the Single Page Dev Portfolio Resource Bundle! This package contains everything you need to create a stunning, interactive portfolio using React, Next.js, TailwindCSS, and Framer Motion.
+Welcome to the repository of my personal portfolio website, designed to showcase my journey, projects, and skills. Built with modern web development technologies, this portfolio reflects my passion for creating engaging and user-friendly digital experiences.  
 
-## Contents
+---
 
-This bundle includes two main folders:
+## 🚀 Features  
+- **Responsive Design**: Optimized for all screen sizes.  
+- **Interactive Animations**: Built with Framer Motion for smooth transitions.  
+- **Project Showcase**: Highlights key projects like ChattyCat and Spotify Clone.  
+- **Modern Tech Stack**: Incorporates the latest in web development.  
 
-1. `designs/` - Contains all the design files
-2. `starter-template/` - Contains the starter code for your portfolio project
+---
 
-## Getting Started
+## 🛠️ Tech Stack  
 
-1. Open the files in the `designs/` folder to view the responsive designs
-1. Copy the `starter-template/` folder to your desktop
-1. Drop the `starter-template/` folder into your IDE of choice
-1. Run `npm install` to install dependencies
-1. Run `npm run dev` to start the development server
-1. Open `http://localhost:3000` in your browser to get started
+| **Technology** | **Description** |  
+| -------------- | --------------- |  
+| ![Next.js](https://img.shields.io/badge/Next.js-000?style=for-the-badge&logo=next.js&logoColor=white) | Framework for server-rendered React applications. |  
+| ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) | Utility-first CSS framework for styling. |  
+| ![Framer Motion](https://img.shields.io/badge/Framer%20Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white) | Library for animations and transitions in React. |  
+| ![Vercel](https://img.shields.io/badge/Vercel-000?style=for-the-badge&logo=vercel&logoColor=white) | Hosting platform for modern web applications. |  
 
-## Additional Resources
+---
 
-- [Frontend Tribe Youtube Channel](https://www.youtube.com/@frontend-tribe)
-
-## License and Attribution
-
-This portfolio project was heavily inspired by the wonderful portfolio design [located here](https://www.figma.com/community/file/1297484254996536416/personalfolio-portfolio-template).
-
-This may be used for personal projects but commercial use is prohibited.
-
-Happy coding, and enjoy building your new portfolio!
