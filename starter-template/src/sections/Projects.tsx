@@ -41,7 +41,7 @@ const portfolioProjects = [
       { title: "Responsive for desktop and mobile" },
       { title: "Interactive with animations and tech highlights" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://saurabhshisode.vercel.app/",
     image: portfolio,
   },
 ];
