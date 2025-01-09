@@ -35,7 +35,7 @@ const experiences: TimelineItem[] = [
     role: "Media & Photography Team Member",
     date: "2023 - 2024",
     description:
-      "Assisting in capturing events, creating visual content, and supporting creative projects.",
+      "Assisting in capturing events, creating visual content, and supporting creative projects for the club.",
     type: "work",
   },
   {
@@ -43,7 +43,7 @@ const experiences: TimelineItem[] = [
     role: "Bachelor's in Computer Science",
     date: "2022 - Present",
     description:
-      "Specialized in Machine Learning, Java, Web Development, and Automation.",
+      "Specialized in Machine Learning, Java, Web Development, and Automation and with extra-curriculars.",
     type: "education",
   },
 ];
