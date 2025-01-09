@@ -95,7 +95,7 @@ export function ExperienceSection() {
             className="absolute left-1/2 transform -translate-x-1/2 bg-gradient-to-b from-emerald-400 to-sky-400/30"
             style={{
               width: "2px",
-              top: isSmallScreen ? "-40px" : "0", // Adjust for small view
+              top: isSmallScreen ? "-30px" : "0", // Adjust for small view
               bottom: 0,
             }}
           ></div>
