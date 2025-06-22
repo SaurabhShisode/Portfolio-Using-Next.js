@@ -1,6 +1,6 @@
 import chattyCat from "@/assets/images/chattycat.png";
-import spotify from "@/assets/images/spotify.png";
-import portfolio from "@/assets/images/portfolio.png";
+import ignitersClub from "@/assets/images/IgnitersClub.png";
+import cropCart from "@/assets/images/CropCart.png";
 import Image from 'next/image';
 import CheckCircleIcon from '@/assets/icons/check-circle.svg';
 import ArrowUpRightIcon from '@/assets/icons/arrow-up-right.svg';
@@ -8,6 +8,31 @@ import grainImage from '@/assets/images/grain.jpg';
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
+  {
+    company: "CropCart",
+    year: "2025",
+    title: "Farm-to-Consumer Agri-Commerce Platform",
+    results: [
+      { title: "Enabled direct product sales connecting farmers and consumers" },
+      { title: "Implemented Google Maps-based product discovery and delivery time estimation" },
+      { title: "Built responsive dashboards with real-time analytics and dual login system" },
+    ],
+    link: "https://crop-cart-rose.vercel.app/",
+    image: cropCart,
+  },
+  {
+    company: "Igniters Club",
+    year: "2025",
+    title: "Club Website",
+    results: [
+      { title: "Designed and launched a mobile-friendly website with 5+ sections and 10+ UI components" },
+      { title: "Attracted 100+ visitors in the first month with steady traffic from students and faculty" },
+      { title: "Increased club visibility and event participation by 40% through enhanced online presence" },
+    ],
+    link: "https://d2c-igniters-club.onrender.com/",
+    image: ignitersClub, 
+  },
+
   {
     company: "Discord Bot",
     year: "2024",
@@ -20,30 +45,7 @@ const portfolioProjects = [
     link: "https://discord.com/oauth2/authorize?client_id=1302853336634232882&permissions=378944&integration_type=0&scope=bot",
     image: chattyCat,
   },
-  {
-    company: "Spotify Clone",
-    year: "2024",
-    title: "Spotify - Web Player",
-    results: [
-      { title: "Replicates Spotify's interface" },
-      { title: "Responsive design for seamless use" },
-      { title: "Includes volume adjustment and mute functionality" },
-    ],
-    link: "http://spotifystream.freewebhostmost.com/",
-    image: spotify,
-  },
-  {
-    company: "Portfolio",
-    year: "2025",
-    title: "Portfolio Website",
-    results: [
-      { title: "Modern design showcasing skills" },
-      { title: "Responsive for desktop and mobile" },
-      { title: "Interactive with animations and tech highlights" },
-    ],
-    link: "https://saurabhshisode.vercel.app/",
-    image: portfolio,
-  },
+
 ];
 
 export const ProjectsSection = () => {
@@ -57,12 +59,12 @@ export const ProjectsSection = () => {
         <p className="text-center md:text-lg lg:text-xl text-white/60 mt-4 max-w-md mx-auto">See how I transformed concepts into engaging digital experiences.</p>
         <div className="mt-10 md:mt-20 flex flex-col gap-20">
           {portfolioProjects.map((project, projectIndex) => (
-            <Card key={project.title} 
-            className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
-            style={{
-              top: `calc(64px + ${projectIndex * 40}px)`
-            }}>
-              
+            <Card key={project.title}
+              className="px-8 pt-8 pb-0 md:pt-12 md:px-10 lg:pt-16 lg:px-20 sticky"
+              style={{
+                top: `calc(64px + ${projectIndex * 40}px)`
+              }}>
+
               <div className="lg:grid lg:grid-cols-2 lg:gap-16">
                 <div className="lg:pb-16">
                   <div className="bg-gradient-to-r from-emerald-300 to-sky-400 inline-flex gap-2 font-bold uppercase tracking-widest text-sm text-transparent bg-clip-text">
