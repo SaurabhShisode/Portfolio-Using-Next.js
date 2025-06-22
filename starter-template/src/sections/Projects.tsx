@@ -14,7 +14,7 @@ const portfolioProjects = [
   title: "CropCart",
   results: [
     { title: "Connected farmers directly with buyers" },
-    { title: "Enabled map-based product discovery and ETA" },
+    { title: "Map-based product discovery and ETA" },
     { title: "Built responsive dashboards and dual login" },
   ],
   link: "https://crop-cart-rose.vercel.app/",
@@ -25,9 +25,9 @@ const portfolioProjects = [
   year: "2025",
   title: "Igniters Club",
   results: [
-    { title: "Launched responsive site with 10+ UI elements" },
+    { title: "Responsive site with 10+ UI elements" },
     { title: "Reached 100+ users in the first month" },
-    { title: "Boosted event participation and club visibility" },
+    { title: "Boosted club visibility" },
   ],
   link: "https://d2c-igniters-club.onrender.com/",
   image: ignitersClub, 
