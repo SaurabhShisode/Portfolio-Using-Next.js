@@ -8,31 +8,30 @@ import grainImage from '@/assets/images/grain.jpg';
 import { Card } from "@/components/Card";
 
 const portfolioProjects = [
-  {
-    company: "CropCart",
-    year: "2025",
-    title: "Farm-to-Consumer Agri-Commerce Platform",
-    results: [
-      { title: "Enabled direct product sales connecting farmers and consumers" },
-      { title: "Implemented Google Maps-based product discovery and delivery time estimation" },
-      { title: "Built responsive dashboards with real-time analytics and dual login system" },
-    ],
-    link: "https://crop-cart-rose.vercel.app/",
-    image: cropCart,
-  },
-  {
-    company: "Igniters Club",
-    year: "2025",
-    title: "Club Website",
-    results: [
-      { title: "Designed and launched a mobile-friendly website with 5+ sections and 10+ UI components" },
-      { title: "Attracted 100+ visitors in the first month with steady traffic from students and faculty" },
-      { title: "Increased club visibility and event participation by 40% through enhanced online presence" },
-    ],
-    link: "https://d2c-igniters-club.onrender.com/",
-    image: ignitersClub, 
-  },
-
+{
+  company: "Farm-to-Consumer Agri-Commerce Platform",
+  year: "2025",
+  title: "CropCart",
+  results: [
+    { title: "Connected farmers directly with buyers" },
+    { title: "Enabled map-based product discovery and ETA" },
+    { title: "Built responsive dashboards and dual login" },
+  ],
+  link: "https://crop-cart-rose.vercel.app/",
+  image: cropCart,
+},
+{
+  company: "Club Website",
+  year: "2025",
+  title: "Igniters Club",
+  results: [
+    { title: "Launched responsive site with 10+ UI elements" },
+    { title: "Reached 100+ users in the first month" },
+    { title: "Boosted event participation and club visibility" },
+  ],
+  link: "https://d2c-igniters-club.onrender.com/",
+  image: ignitersClub, 
+},
   {
     company: "Discord Bot",
     year: "2024",
