@@ -9,7 +9,7 @@ import { Card } from "@/components/Card";
 
 const portfolioProjects = [
 {
-  company: "Farm-to-Consumer Agri-Commerce Platform",
+  company: "Agri-Commerce Platform",
   year: "2025",
   title: "CropCart",
   results: [
